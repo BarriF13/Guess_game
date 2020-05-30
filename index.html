@@ -11,26 +11,56 @@
 <body>
   <h1>Let's Hang Adam </h1>
   <p>Find the hidden word - Enter a letter</p>
-  <div class="game-container"> </div>
-  <svg height="320" width="200" class="adam-container">
+  <div class="game-container">
+    <svg height="320" width="200" class="adam-container">
 
-    <!--POLL-->
-    <line x1="60" y1="20" x2="140" y2="20"></line>
-    <line x1="60" y1="20" x2="60" y2="300"></line>
-    <line x1="140" y1="20" x2="140" y2="70"></line>
-    <line x1="10" y1="300" x2="110" y2="300"></line>
-    <!--head-->
-    <circle cx="140" cy="100" r="25" class="adam-part"></circle>
-    <!--body-->
-    <line x1="140" y1="130" x2="140" y2="190" class="adam-part"></line>
-    <!--arms-->
-    <line x1="140" y1="150" x2="110" y2="130" class="adam-part"></line>
-    <line x1="140" y1="150" x2="170" y2="130" class="adam-part"></line>
-    <!-- legs-->
-    <line x1="140" y1="190" x2="110" y2="250" class="adam-part"></line>
-    <line x1="140" y1="190" x2="170" y2="250" class="adam-part"></line>
+      <!--POLL-->
+      <line x1="60" y1="20" x2="140" y2="20"></line>
+      <line x1="60" y1="20" x2="60" y2="300"></line>
+      <line x1="140" y1="20" x2="140" y2="70"></line>
+      <line x1="10" y1="300" x2="110" y2="300"></line>
+      <!--head-->
+      <circle cx="140" cy="100" r="25" class="adam-part"></circle>
+      <!--body-->
+      <line x1="140" y1="130" x2="140" y2="190" class="adam-part"></line>
+      <!--arms-->
+      <line x1="140" y1="150" x2="110" y2="130" class="adam-part"></line>
+      <line x1="140" y1="150" x2="170" y2="130" class="adam-part"></line>
+      <!-- legs-->
+      <line x1="140" y1="190" x2="110" y2="250" class="adam-part"></line>
+      <line x1="140" y1="190" x2="170" y2="250" class="adam-part"></line>
 
-  </svg>
+    </svg>
+
+    <div class="incorrect-letters-container">
+      <div class="incorrect-letters">
+        <p>Incorrect letter</p>
+        <span>e,r,t</span>
+      </div>
+    </div>
+
+    <div class="word" id="word">
+      <div class="letter">H</div>
+      <div class="letter">e</div>
+      <div class="letter">l</div>
+      <div class="letter">l</div>
+      <div class="letter">o</div>
+    </div>
+  </div>
+
+  <!--  result-->
+
+  <div class="pu-container" id="pu-container">
+    <div class="pu">
+      <h2 id="result"> You Won </h2>
+      <button id="plat-btn">Try Again??</button>
+    </div>
+  </div>
+  <!--alert-->
+  <div class="alert-container" id="alert-container">
+    <p>you have already entered this letter</p>
+
+  </div>
 </body>
 
 </html>
