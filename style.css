@@ -133,3 +133,16 @@ h1 {
 .alert-container.show{
   transform: translateY(-120px);
 }
+.barri a{
+  color: white;
+  font-size: 12px;
+  margin: 0;
+  text-decoration: none;
+}
+.barri a:hover{
+  color: rgb(53, 53, 121);
+}
+@media(max-width: 480px){
+  .game-container{ width: 90%;}
+
+}
