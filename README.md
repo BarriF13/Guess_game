@@ -10,8 +10,8 @@
 ## Features
 - Every game has a new word by random
 - Player should find the word by guessing the letters one by one 
-- Each time that the guess is wrong a body part will be appear on the poll
-- If Adam completed on the poll it means that the player has lost. So you can play again
+- Each time the player guess wrongly a body part will be appear on the poll
+- If Adam completed on the poll it means that the player has lost. After loosing or winning player can try again.
 #
 ### View
 
