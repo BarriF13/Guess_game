@@ -20,7 +20,7 @@
 
 #
 
- ## <a name="play">Let's hang Adam!</a> 💀 [play here](http://.com/) 💀
+ ## <a name="play">Let's hang Adam!</a> 💀 [play here](https://lets-hang-adam.netlify.app/) 💀
  #
 ## Thank you for watching---->> [👩🏻‍💻Barri🎨](http://bdesginstudio.co.uk) &  [more projects](https://github.com/BarriF13) 
 
