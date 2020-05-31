@@ -1,6 +1,6 @@
 ## Let's hang ADAM 
 #
-### Guessing game - originally known as hangman
+### Guessing game - originally known as hangman - only for laptops 
 #
 ### Tech Stack
 - Vanilla Javascript
