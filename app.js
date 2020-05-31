@@ -7,10 +7,10 @@ const resultMsg = document.getElementById('result');
 
 const adamParts = document.querySelectorAll('.adam-part');
 
-const words = ['application', 'programming', 'interface', 'wizard'];
+const words = ['application', 'programming', 'interface', 'wizard', 'witch', 'cat', 'prompt', 'mushroom', 'dinner', 'javascript', 'ladies', 'coder', 'debugger', 'ruby', 'react', 'holiday', 'alert', 'covid', 'philosophy', 'beautiful', 'dance', 'ballroom', 'london', 'vanilla', 'debugger', 'zombie', 'passion', 'promise', 'demand', 'neutral', 'agreement', 'presidency', 'official', 'funky', 'exaggerate', 'reliable', 'burger', 'pizza', 'researcher', 'captivate', 'regard', 'ceiling', 'sausage', 'cheque', 'vegetarian', 'fashion', 'rehabilitation', 'tournament', 'judgment', 'freedom', 'demonstrate', 'engagement', 'graduate', 'fountain', 'transparent', 'final'];
 
 let selectedWord = words[Math.floor(Math.random()* words.length)];
-// console.log(selectedWord);
+console.log(selectedWord);
 
 const correctLetters = [];
 const incorrectLetters = [];
