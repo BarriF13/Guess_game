@@ -55,7 +55,8 @@ h1 {
 }
 .incorrect-letters-container p{
   margin: 0 0 5px;
-  border: olive 2px solid;
+  font-size: 24px;
+  /* border: olive 2px solid; */
 }
 .incorrect-letters-container span{
   font-size: 24px;
